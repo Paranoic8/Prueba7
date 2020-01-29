@@ -45,13 +45,20 @@
             android:layout_height="wrap_content">
         </com.google.android.material.textfield.TextInputEditText>
     </com.google.android.material.textfield.TextInputLayout>
+<Switch
+    android:layout_width="match_parent"
+    android:id="@+id/switch1"
+    android:checked="false"
+    android:layout_height="wrap_content">
 
+</Switch>
 
-<com.google.android.material.button.MaterialButton
+<Button
+    style="@style/Widget.AppCompat.Button.Borderless.Colored"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Guardar"
     android:id="@+id/button_save">
-</com.google.android.material.button.MaterialButton>
+</Button>
 
 </LinearLayout>
